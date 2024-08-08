@@ -1,0 +1,9 @@
+package com.integra.order.common.mapper;
+
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class OrderEntityToOutboxEntity {
+
+}

@@ -1,0 +1,9 @@
+package com.integra.order.common.mapper;
+
+import org.hibernate.annotations.Comment;
+import org.hibernate.annotations.Comments;
+
+@Comments
+public class OrderEntityToOutboxEntity {
+
+}

@@ -1,0 +1,8 @@
+package com.integra.order.common.mapper;
+
+import org.hibernate.annotations.Comment;
+
+@Comment
+public class OrderDtoToEntityMapper {
+
+}

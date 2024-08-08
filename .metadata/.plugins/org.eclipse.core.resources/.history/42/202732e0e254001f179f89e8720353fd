@@ -1,0 +1,5 @@
+package com.integra.order.repository;
+
+public class OutboxRepository {
+
+}

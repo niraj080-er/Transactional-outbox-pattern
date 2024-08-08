@@ -1,0 +1,21 @@
+package com.integra.order.common.mapper;
+
+import org.springframework.stereotype.Component;
+
+import com.integra.order.common.dto.OrderRequestDto;
+import com.integra.order.entity.Order;
+
+@Component
+public class OrderDtoToEntityMapper {
+	
+	public Order map(OrderRequestDto requestDto) {
+		return Order.builder()
+				.name(requestDto.getName())
+				.customerId(requestDto.getCustomerId())
+				.productId(requestDto.getProductId())
+				.price(requestDto.getPrice())
+				.orderDate(requestDto.ge)
+				.build();
+	}
+
+}

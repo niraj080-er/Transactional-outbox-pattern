@@ -1,0 +1,12 @@
+package com.integra.order.common.dto;
+
+import java.math.BigDecimal;
+
+public class OrderDto {
+	 private String name;
+	 private String customerId;
+	 private String productId;
+	 private int quantity;
+	 private BigDecimal price;
+
+}

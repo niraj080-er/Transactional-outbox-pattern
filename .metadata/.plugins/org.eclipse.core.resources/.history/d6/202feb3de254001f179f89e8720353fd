@@ -1,0 +1,5 @@
+package com.integra.order.entity;
+
+public class OutboxEntity {
+
+}

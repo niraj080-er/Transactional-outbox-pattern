@@ -1,0 +1,5 @@
+package com.integra.order.common.dto;
+
+public class OrderDto {
+
+}

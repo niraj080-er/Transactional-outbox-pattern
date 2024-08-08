@@ -1,0 +1,22 @@
+package com.integra.order.entity;
+
+import java.util.Date;
+
+import jakarta.persistence.Entity;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class OutboxEntity {
+	
+	private long id;
+	private String aggregatId;
+	private String payload;
+	private Date createdAt;
+	private Boolean isProcessed;
+
+}

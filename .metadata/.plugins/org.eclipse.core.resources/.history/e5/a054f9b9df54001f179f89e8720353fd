@@ -1,0 +1,5 @@
+package com.integra.order.services;
+
+public class OrderService {
+
+}
